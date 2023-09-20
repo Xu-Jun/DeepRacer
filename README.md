@@ -1,7 +1,7 @@
 # DeepRacer
 AWS DeepRacer Reward Function &amp; Action Space
 
-## left/left-right/right model
+## Left/left-right/right model
 ### Desc: 
 Drive on left lane if turn left, drive on right lane if turn right
 
