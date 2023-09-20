@@ -1,12 +1,12 @@
 # DeepRacer
 AWS DeepRacer Reward Function &amp; Action Space
 
-# Model-1
+# left/left-right/right model
 ## Desc: 
 Drive on left lane if turn left, drive on right lane if turn right
 
 ## Reward Function:
-
+```
 from numpy import log as ln
 def reward_function(params):
     reward = 0
@@ -38,7 +38,7 @@ def reward_function(params):
         reward += 0.5
     
     return float(reward)
-
+```
 ## Hyperparameter
 Gradient descent batch size	64
 Entropy	0.01
@@ -63,4 +63,7 @@ Speed (m/s)
 8	20.0	1.50
 9	30.0	1.00
 
-# Model-2
+# Waypoints Model
+
+# Race Line Model
+
